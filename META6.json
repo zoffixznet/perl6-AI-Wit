@@ -1,0 +1,21 @@
+{
+    "perl"         : "6.c",
+    "name"         : "AI::Wit,
+    "version"      : "1.002001",
+    "description"  : "Implementation of www.wit.ai API",
+    "tags"         : [ "HTTP", "AI" ],
+    "depends"      : [
+        "WWW",
+        "JSON::Fast",
+    ],
+    "test-depends" : [
+        "Test",
+        "Test::When",
+        "Test::META"
+    ],
+    "provides"     : {
+        "AI::Wit" : "lib/AI/Wit.pm6"
+    },
+    "authors"       : ["Zoffix Znet"],
+    "support"       : {"source"   : "git://github.com/zoffixznet/perl6-AI-Wit.git"}
+}
